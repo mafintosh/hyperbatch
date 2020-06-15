@@ -1,6 +1,6 @@
 {
   "name": "hyperbatch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Addressable batches of data on top of a Hypercore",
   "main": "index.js",
   "dependencies": {
