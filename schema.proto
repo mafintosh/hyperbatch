@@ -1,0 +1,7 @@
+message Entry {
+  required uint64 batchIndex = 1;
+  required uint64 blockIndex = 2;
+  required uint64 byteLength = 3;
+  repeated uint64 index = 4 [packed=true];
+  required bytes block = 5;
+}
